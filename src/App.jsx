@@ -267,7 +267,7 @@ function Header() {
       <Container className="flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-3">
           <img
-            src="public/assets/Logo1.png"
+            src="/assets/Logo1.png"
             alt="Kinglaw Paradise Builders Ltd."
             className="h-10 w-10 rounded-lg object-contain"
           />
@@ -395,70 +395,70 @@ function Hero({ heading, sub, img, dark = false }) {
 /* ====================== DATA (SAMPLE) ====================== */
 const DATA = {
   properties: [
-    { src: "public/assets/property1.jpg", title: "4-Bed Duplex • Benin City", meta: "4 Beds • 3 Baths • 450 m²", price: "Contact Agent", beds: 4 },
-    { src: "public/assets/property2.jpg", title: "3-Bed Terrace • Benin City", meta: "3 Beds • 2 Baths • 300 m²", price: "Contact Agent", beds: 3 },
-    { src: "public/assets/property4.jpg", title: "Upstairs Appartment • Benin City", meta: "5 Beds • 5 Baths  600 m²", price: "Contact Agent", beds: 3},
+    { src: "/assets/property1.jpg", title: "4-Bed Duplex • Benin City", meta: "4 Beds • 3 Baths • 450 m²", price: "Contact Agent", beds: 4 },
+    { src: "/assets/property2.jpg", title: "3-Bed Terrace • Benin City", meta: "3 Beds • 2 Baths • 300 m²", price: "Contact Agent", beds: 3 },
+    { src: "/assets/property4.jpg", title: "Upstairs Appartment • Benin City", meta: "5 Beds • 5 Baths  600 m²", price: "Contact Agent", beds: 3},
   ],
   lands: [
-    { src: "public/assets/land.jpg", title: "Benin City", meta: "Survey & Deed", price: "Contact Agent" },
-    { src: "public/assets/land1.jpg", title: "Benin City", meta: "C of O", price: "Contact Agent" },
-    { src: "public/assets/land3.jpg", title: "Benin City", meta: "Survey & Deed", price: "Contact Agent" },
-    { src: "public/assets/land4.jpg", title: "Benin City", meta: "Survey & Deed", price: "Contact Agent" },
-    { src: "public/assets/land5.jpg", title: "Benin City", meta: "Survey & Deed", price: "Contact Agent" },
-    { src: "public/assets/llland.jpg", title: "Benin City", meta: "Survey & Deed", price: "Contact Agent" },
-    { src: "public/assets/llandp.jpg", title: "Benin City", meta: "Survey & Deed", price: "Contact Agent" },
+    { src: "/assets/land.jpg", title: "Benin City", meta: "Survey & Deed", price: "Contact Agent" },
+    { src: "/assets/land1.jpg", title: "Benin City", meta: "C of O", price: "Contact Agent" },
+    { src: "/assets/land3.jpg", title: "Benin City", meta: "Survey & Deed", price: "Contact Agent" },
+    { src: "/assets/land4.jpg", title: "Benin City", meta: "Survey & Deed", price: "Contact Agent" },
+    { src: "/assets/land5.jpg", title: "Benin City", meta: "Survey & Deed", price: "Contact Agent" },
+    { src: "/assets/llland.jpg", title: "Benin City", meta: "Survey & Deed", price: "Contact Agent" },
+    { src: "/assets/llandp.jpg", title: "Benin City", meta: "Survey & Deed", price: "Contact Agent" },
   ],
   rentals: [
-    { src: "public/assets/rent1.jpg", title: "2-Bedroom Apartment • Benin City", meta: "Space • Parking", price: "Contact Agent", beds: 2 },
-    { src: "public/assets/rent2.jpg", title: "Flats-Bedroom Apartment • Benin City", meta: "Upstairs • Parking", price: "Contact Agent", beds: 2 },
-    { src: "public/assets/rent3.jpg", title: "2Each-Bed Apartment • Benin city", meta: "Upstairs • Parking", price: "Contact Agent", beds: 2 },
-    { src: "public/assets/rent4.jpg", title: "2-Bed Apartment • Sapele Road", meta: "Self-Contain • Parking", price: "Contact Agent", beds: 2 },
-    { src: "public/assets/rentage1.jpg", title: "Flat-Beds Apartment • Benin City", meta: "Upstairs • Parking", price: "Contact Agent", beds: 2 },
+    { src: "/assets/rent1.jpg", title: "2-Bedroom Apartment • Benin City", meta: "Space • Parking", price: "Contact Agent", beds: 2 },
+    { src: "/assets/rent2.jpg", title: "Flats-Bedroom Apartment • Benin City", meta: "Upstairs • Parking", price: "Contact Agent", beds: 2 },
+    { src: "/assets/rent3.jpg", title: "2Each-Bed Apartment • Benin city", meta: "Upstairs • Parking", price: "Contact Agent", beds: 2 },
+    { src: "/assets/rent4.jpg", title: "2-Bed Apartment • Sapele Road", meta: "Self-Contain • Parking", price: "Contact Agent", beds: 2 },
+    { src: "/assets/rentage1.jpg", title: "Flat-Beds Apartment • Benin City", meta: "Upstairs • Parking", price: "Contact Agent", beds: 2 },
   ],
   materials: [
-    { src: "public/assets/material-cement.jpg", title: "Dangote Cement 50kg", price: "Contact Agent" },
-    { src: "public/assets/material-wiremesh.jpg", title: "Wire Mesh (Roll)", price: "Contact Agent" },
-    { src: "public/assets/material-woods.jpg", title: "Hardwood (Assorted)", price: "Contact Agent" },
-    { src: "public/assets/material-blocks.jpg", title: `Hollow Blocks 9"`, price: "contact Agent" },
-    { src: "public/assets/material-granite.jpg", title: "Granite (30 Tons)", price: "Contact Agent" },
-    { src: "public/assets/materialRod.jpg", title: "Rods  (12mm, 16mm, 20mm", price: "Contact Agent" },
-    { src: "public/assets/material-blocksm.jpg", title: "Moulding", price: "Contact Agent" },
+    { src: "/assets/material-cement.jpg", title: "Dangote Cement 50kg", price: "Contact Agent" },
+    { src: "/assets/material-wiremesh.jpg", title: "Wire Mesh (Roll)", price: "Contact Agent" },
+    { src: "/assets/material-woods.jpg", title: "Hardwood (Assorted)", price: "Contact Agent" },
+    { src: "/assets/material-blocks.jpg", title: `Hollow Blocks 9"`, price: "contact Agent" },
+    { src: "/assets/material-granite.jpg", title: "Granite (30 Tons)", price: "Contact Agent" },
+    { src: "/assets/materialRod.jpg", title: "Rods  (12mm, 16mm, 20mm", price: "Contact Agent" },
+    { src: "/assets/material-blocksm.jpg", title: "Moulding", price: "Contact Agent" },
   ],
   artifacts: [
-    { src: "public/assets/material-blocksm.jpg", title: "Block Production Yard" },
-    { src: "public/assets/0ngoingpit.jpg", title: "Ongoing Soakaway" },
-    { src: "public/assets/AAfact.jpg", title: "From Foundation Forming" },
-    { src: "public/assets/Afact.jpg", title: "WC Level" },
-    { src: "public/assets/IMG-20250813-WA0004.jpg", title: "Formin" },
-    { src: "public/assets/llland.jpg", title: "Land for Sale" },
-    { src: "public/assets/material-wiremesh.jpg", title: "Wiremesh" },
-    { src: "public/assets/sitework1.jpg", title: "Sitework" },
-    { src: "public/assets/sand and gravel.jpg", title: "sand and Gravel"},
-    { src: "public/assets/logo.jpg", title: "Company Flyer" },
+    { src: "/assets/material-blocksm.jpg", title: "Block Production Yard" },
+    { src: "/assets/0ngoingpit.jpg", title: "Ongoing Soakaway" },
+    { src: "/assets/AAfact.jpg", title: "From Foundation Forming" },
+    { src: "/assets/Afact.jpg", title: "WC Level" },
+    { src: "/assets/IMG-20250813-WA0004.jpg", title: "Formin" },
+    { src: "/assets/llland.jpg", title: "Land for Sale" },
+    { src: "/assets/material-wiremesh.jpg", title: "Wiremesh" },
+    { src: "/assets/sitework1.jpg", title: "Sitework" },
+    { src: "/assets/sand and gravel.jpg", title: "sand and Gravel"},
+    { src: "/assets/logo.jpg", title: "Company Flyer" },
   ],
   plans: [
-    { src: "public/assets/plan-1.jpg", title: "Residential Plan A" },
-    { src: "public/assets/plan-2.jpg", title: "5-Bedroom Plan" },
-    { src: "public/assets/DrawingP3.jpg", title: "Bedroom Plan" },
-    { src: "public/assets/DrawingP2.jpg", title: "5-Bedroom Plan" },
+    { src: "/assets/plan-1.jpg", title: "Residential Plan A" },
+    { src: "/assets/plan-2.jpg", title: "5-Bedroom Plan" },
+    { src: "/assets/DrawingP3.jpg", title: "Bedroom Plan" },
+    { src: "/assets/DrawingP2.jpg", title: "5-Bedroom Plan" },
   ],
   designs: [
-    { src: "public/assets/desiggn.jpg", title: "Modern Elevation" },
-    { src: "public/assets/ddesign.jpg", title: "Classic Elevation" },
-    { src: "public/assets/design1.jpg", title: "Classic Design" },
-    { src: "public/assets/design3.jpg", title: "Modern Design" },
-    { src: "public/assets/design4.jpg", title: "Classic Elevation" },
+    { src: "/assets/desiggn.jpg", title: "Modern Elevation" },
+    { src: "/assets/ddesign.jpg", title: "Classic Elevation" },
+    { src: "/assets/design1.jpg", title: "Classic Design" },
+    { src: "/assets/design3.jpg", title: "Modern Design" },
+    { src: "/assets/design4.jpg", title: "Classic Elevation" },
   ],
   construction: [
-    { src: "public/assets/foundation1.jpg", title: "Ongoing Site — Foundation" },
-    { src: "public/assets/Finishing.jpg", title: "Ongoing Site — Finishing" },
-    { src: "public/assets/sitework1.jpg", title: "Ongoing Site — WC level" },
-    { src: "public/assets/sitework2.jpg", title: "Ongoing Site — Men at Work" },
-    { src: "public/assets/sitework3.jpg", title: "Ongoing Site — Finishing" },
-    { src: "public/assets/sitework4.jpg", title: "Ongoing Site — Finishing" },
-    { src: "public/assets/0ngoingpit.jpg", title: "Ongoing Site — Soakaway" },
-    { src: "public/assets/upstair1.jpg", title: "Ongoing Site — Upstairs" },
-    { src: "public/assets/upstair2.jpg", title: "Ongoing Site — Finishing" },
+    { src: "/assets/foundation1.jpg", title: "Ongoing Site — Foundation" },
+    { src: "/assets/Finishing.jpg", title: "Ongoing Site — Finishing" },
+    { src: "/assets/sitework1.jpg", title: "Ongoing Site — WC level" },
+    { src: "/assets/sitework2.jpg", title: "Ongoing Site — Men at Work" },
+    { src: "/assets/sitework3.jpg", title: "Ongoing Site — Finishing" },
+    { src: "/assets/sitework4.jpg", title: "Ongoing Site — Finishing" },
+    { src: "/assets/0ngoingpit.jpg", title: "Ongoing Site — Soakaway" },
+    { src: "/assets/upstair1.jpg", title: "Ongoing Site — Upstairs" },
+    { src: "/assets/upstair2.jpg", title: "Ongoing Site — Finishing" },
   ],
 };
 
@@ -504,10 +504,10 @@ function Home() {
               className="grid gap-4 md:grid-cols-2"
             >
               {[
-                { src: "public/assets/material-cement.jpg", title: "Cement" },
-                { src: "public/assets/material-wiremesh.jpg", title: "Wire Mesh" },
-                { src: "public/assets/material-blocks.jpg", title: "Hollow Blocks" },
-                { src: "public/assets/material-granite.jpg", title: "Granite" },
+                { src: "/assets/material-cement.jpg", title: "Cement" },
+                { src: "/assets/material-wiremesh.jpg", title: "Wire Mesh" },
+                { src: "/assets/material-blocks.jpg", title: "Hollow Blocks" },
+                { src: "/assets/material-granite.jpg", title: "Granite" },
               ].map((it, i) => (
                 <Card key={i}>
                   <ImageTile
@@ -741,7 +741,7 @@ function Rentals() {
 
 /* AGENT (single) */
 function Agents() {
-  const agentImg = "public/assets/AgentProfile.jpg";
+  const agentImg = "/assets/AgentProfile.jpg";
   return (
     <>
       <Hero heading="Your Verified Agent" sub="Work with one trusted point of contact." img={agentImg} dark />
