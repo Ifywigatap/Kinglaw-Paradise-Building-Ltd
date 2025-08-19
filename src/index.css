@@ -1,0 +1,100 @@
+/* ---------- Tailwind base ---------- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- Theme tokens ---------- */
+:root{
+  --brand:#000;              /* primary (black) */
+  --accent:#f59e0b;          /* amber/yellow */
+  --paper:#ffffff;           /* cards */
+  --ink:#0f172a;             /* text (slate-900) */
+  --bg:#f7fafc;              /* app background (gray-50) */
+  --overlay: rgba(0,0,0,.45);/* dark overlay */
+}
+
+body{
+  background: var(--bg);
+  color: var(--ink);
+}
+
+/* ---------- Generic page wrapper ---------- */
+/* Add className="page ..." at the top of each page component */
+.page{
+  min-height: 100%;
+  padding-bottom: 2rem;
+}
+
+/* Subtle dotted background */
+.dots-bg{
+  background-image:
+    radial-gradient(#e5e7eb 1px, transparent 1px);
+  background-size: 18px 18px;
+}
+
+/* Clean diagonal grid background */
+.pattern-grid{
+  background-image:
+    linear-gradient(to right, #eee 1px, transparent 1px),
+    linear-gradient(to bottom, #eee 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* Brand gradient header/section */
+.brand-gradient{
+  background: linear-gradient(135deg, #fff 0%, #fff 30%, #fff1 30%), 
+              linear-gradient(135deg, #fff 0%, #fff 60%),
+              linear-gradient(90deg, #fffbeb 0%, #fff 40%, #fffbeb 100%);
+}
+
+/* ---------- Image hero with overlay (reusable) ----------
+   Usage (React): className="bg-hero" style={{'--bg-image': "url('/assets/...')" }}
+*/
+.bg-hero{
+  position: relative;
+  isolation: isolate;
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-position: center;
+}
+.bg-hero::before{
+  content:"";
+  position:absolute; inset:0;
+  background: linear-gradient(to bottom, rgba(255,255,255,.85), rgba(255,255,255,.95));
+  z-index:-1;
+}
+.bg-hero.dark::before{
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,.35), rgba(0,0,0,.55));
+}
+
+/* ---------- Card polish (applies to our Card component visually) ---------- */
+.card{
+  border-radius: 1rem;
+  background: var(--paper);
+  box-shadow: 0 6px 18px rgba(15,23,42,.06);
+  border: 1px solid #eef2f7;
+}
+
+/* Optional: glass effect for hero text blocks */
+.glass{
+  background: rgba(255,255,255,.65);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,.5);
+  border-radius: 1rem;
+}
+
+/* Optional dark theme (toggle by adding class 'theme-dark' to <body>) */
+body.theme-dark{
+  --bg:#0b1220;
+  --paper:#0f172a;
+  --ink:#e5e7eb;
+}
+body.theme-dark .brand-gradient{
+  background: linear-gradient(135deg, #0b1220 0%, #0b1220 30%, #0b1220 30%),
+              linear-gradient(90deg, #111827 0%, #0b1220 40%, #0b1220 100%);
+}
+body {
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
