@@ -532,7 +532,7 @@ function Home() {
           <Link className="rounded-2xl border bg-white p-5 text-sm font-semibold shadow-sm hover:shadow-md" to="/lands-for-sale">Lands for Sale</Link>
           <Link className="rounded-2xl border bg-white p-5 text-sm font-semibold shadow-sm hover:shadow-md" to="/houses-for-rent">Houses for Rent</Link>
           <Link className="rounded-2xl border bg-white p-5 text-sm font-semibold shadow-sm hover:shadow-md" to="/materials">Building Materials</Link>
-          <Link className="rounded-2xl border bg-white p-5 text-sm font-semibold shadow-sm hover:shadow-md" to="/plans">House Drawing Plans</Link>
+          <Link className="rounded-2xl border bg-white p-5 text-sm font-semibold shadow-sm hover:shadow-md" to="/plans">Building Drawing Plans</Link>
         </div>
       </Section>
     </>
