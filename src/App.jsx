@@ -289,7 +289,7 @@ function Header() {
           <NavLink to="/materials">Materials</NavLink>
           <NavLink to="/artifacts">Artifacts</NavLink>
           <NavLink to="/services">Services</NavLink>
-          <NavLink to="/plans">House Plans</NavLink>
+          <NavLink to="/plans">Building Plans</NavLink>
           <NavLink to="/designs">Designs</NavLink>
           <NavLink to="/construction">Construction</NavLink>
         </nav>
@@ -337,7 +337,7 @@ function Footer() {
       <Container className="py-8 text-sm text-gray-600">
         <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
           <p>© {new Date().getFullYear()} Kinglaw Paradise Builders Ltd | Built By: <a  href="https://wa.me/2348113722088">
-          Ifywigatechz</a> </p>
+          Ifywigatechz.WhatsApps</a> </p>
           <div className="flex flex-wrap gap-2">
             <Badge>RC 1647808</Badge>
             <Badge>Benin City, Edo State</Badge>
@@ -417,11 +417,11 @@ const DATA = {
   ],
   materials: [
     { src: "/assets/material-cement.jpg", title: "Dangote Cement 50kg", price: "Contact Agent" },
-    { src: "/assets/material-wiremesh.jpg", title: "Wire Mesh (Roll)", price: "Contact Agent" },
+    { src: "/assets/material-BRC Rods(wire).jpg", title: "BRC Rods (Wire)", price: "Contact Agent" },
     { src: "/assets/material-woods.jpg", title: "Hardwood (Assorted)", price: "Contact Agent" },
     { src: "/assets/material-blocks.jpg", title: `Hollow Blocks 9"`, price: "contact Agent" },
     { src: "/assets/material-granite.jpg", title: "Granite (30 Tons)", price: "Contact Agent" },
-    { src: "/assets/materialRod.jpg", title: "Rods  (12mm, 16mm, 20mm", price: "Contact Agent" },
+    { src: "/assets/materialRod.jpg", title: "Rods", price: "Contact Agent" },
     { src: "/assets/material-blocksm.jpg", title: "Moulding", price: "Contact Agent" },
   ],
   artifacts: [
@@ -431,7 +431,7 @@ const DATA = {
     { src: "/assets/Afact.jpg", title: "WC Level" },
     { src: "/assets/IMG-20250813-WA0004.jpg", title: "Formin" },
     { src: "/assets/llland.jpg", title: "Land for Sale" },
-    { src: "/assets/material-wiremesh.jpg", title: "Wiremesh" },
+    { src: "/assets/material-BRC Rods(wire).jpg", title: "BRC Rods(wire)" },
     { src: "/assets/sitework1.jpg", title: "Sitework" },
     { src: "/assets/sand and gravel.jpg", title: "sand and Gravel"},
     { src: "/assets/logo.jpg", title: "Company Flyer" },
@@ -483,10 +483,10 @@ function Home() {
                 transition={{ duration: 0.6 }}
                 className="text-3xl font-black leading-tight md:text-5xl"
               >
-                Find Land, Rent Homes, Build Modern Designs — All in One Place
+                FIND LAND, RENT HOMES, BUILD MODERN DESIGNS — ALL IN ONE PLACE
               </motion.h1>
               <p className="mt-4 max-w-xl text-gray-700">
-                Buy plots, rent houses, hire trusted agents, and order quality building materials. From drawings to construction, we’ve got you.
+                BUY PLOTS, RENT HOUSES, HIRE TRUSTED AGENT, AND ORDER QUALITY BUILDING MATERIALS. FROM DRAWINGS TO CONSTRUCTION, WE'VE GOT YOU.
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <Link className="rounded-2xl bg-black px-5 py-3 text-sm font-semibold text-white" to="/properties">Browse Properties</Link>
@@ -505,7 +505,7 @@ function Home() {
             >
               {[
                 { src: "/assets/material-cement.jpg", title: "Cement" },
-                { src: "/assets/material-wiremesh.jpg", title: "Wire Mesh" },
+                { src: "/assets/material-BRC Rods(wire).jpg", title: "BRC Rods (Wire)" },
                 { src: "/assets/material-blocks.jpg", title: "Hollow Blocks" },
                 { src: "/assets/material-granite.jpg", title: "Granite" },
               ].map((it, i) => (
@@ -893,7 +893,7 @@ function Plans() {
 
   return (
     <>
-      <Hero heading="House Drawing Plans" sub="Ready-made and custom plans." img={DATA.plans[0]?.src} />
+      <Hero heading="Building Drawing Plans" sub="Ready-made and custom plans." img={DATA.plans[0]?.src} />
       <Section
         actions={<FilterBar query={query} setQuery={setQuery} placeholder="Search plans..." />}
       >
